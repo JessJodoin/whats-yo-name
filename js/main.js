@@ -1,7 +1,7 @@
 var newName = prompt('What is your name?');
 
-if (newName = 'Thomas') {
-  alert('Names are the same!');
+if (newName.toLowerCase() == 'thomas') {
+  alert('Hey Thomas, our names are the same!');
 } else {
-  alert('Names are different.');
+  alert('Too bad our names are different, Thomas.');
 }
